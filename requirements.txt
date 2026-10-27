@@ -1,0 +1,3 @@
+weasyprint>=70
+pypdf>=6
+pytest>=8

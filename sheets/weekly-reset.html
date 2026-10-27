@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Weekly reset</title>
+<link rel="stylesheet" href="docket-base.css">
+<style>
+.next .slots { flex: 1; justify-content: space-evenly; gap: 0.05in; }
+.next .taskrow { flex: none; }
+.winbadge { width: 0.17in; height: 0.17in; background: #cf6f5a; border-radius: 50%; flex: none; }
+.checkitem { width: calc(50% - 0.09in); }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <div class="masthead">
+    <div>
+      <div class="title">Weekly reset</div>
+      <div class="subtitle">close the loop on this week before next week piles up</div>
+    </div>
+    <div class="datebar">
+      <div class="datefield">Week of <span class="drule"></span></div>
+    </div>
+  </div>
+
+  <div class="cols" style="flex:none;">
+    <div class="col panel">
+      <div class="secline">
+        <div class="label label-sage">What worked</div>
+        <div class="hint">keep doing this</div>
+      </div>
+      <div class="slot"></div>
+      <div class="slot"></div>
+      <div class="slot"></div>
+      <div class="slot"></div>
+    </div>
+    <div class="col panel">
+      <div class="secline">
+        <div class="label label-coral">What dragged</div>
+        <div class="hint">note it kindly, release the guilt</div>
+      </div>
+      <div class="slot"></div>
+      <div class="slot"></div>
+      <div class="slot"></div>
+      <div class="slot"></div>
+    </div>
+  </div>
+
+  <div class="sec panel">
+    <div class="secline">
+      <div class="label label-coral">Three wins</div>
+      <div class="hint">done is done &mdash; proof you showed up</div>
+    </div>
+    <div class="winrow"><div class="winbadge"></div><div class="slot"></div></div>
+    <div class="winrow"><div class="winbadge"></div><div class="slot"></div></div>
+    <div class="winrow"><div class="winbadge"></div><div class="slot"></div></div>
+  </div>
+
+  <div class="sec panel next" style="flex:1;">
+    <div class="secline">
+      <div class="label label-blue">Next week, three tops</div>
+      <div class="hint">the rocks, not the pebbles</div>
+    </div>
+    <div class="slots">
+      <div class="taskrow"><div class="tasknum">1</div><div class="cbx"></div><div class="slot"></div></div>
+      <div class="taskrow"><div class="tasknum">2</div><div class="cbx"></div><div class="slot"></div></div>
+      <div class="taskrow"><div class="tasknum">3</div><div class="cbx"></div><div class="slot"></div></div>
+    </div>
+  </div>
+
+  <div class="sec panel" style="flex:none;">
+    <div class="secline">
+      <div class="label label-sage">Reset checklist</div>
+      <div class="hint">the basics that make Monday kinder</div>
+    </div>
+    <div class="checkgrid">
+      <div class="checkitem"><span class="cbx cbx-sm"></span>Groceries list</div>
+      <div class="checkitem"><span class="cbx cbx-sm"></span>Laundry caught up</div>
+      <div class="checkitem"><span class="cbx cbx-sm"></span>Trash & recycling</div>
+      <div class="checkitem"><span class="cbx cbx-sm"></span>Meds refill check</div>
+      <div class="checkitem"><span class="cbx cbx-sm"></span>Sheets & towels</div>
+      <div class="checkitem"><span class="cbx cbx-sm"></span>One surface cleared</div>
+    </div>
+  </div>
+
+  <div class="cols" style="flex:none;">
+    <div class="col">
+      <div class="secline">
+        <div class="label label-coral">Meds refills</div>
+        <div class="hint">pharmacy run / call-in date</div>
+      </div>
+      <div class="mmrow"><div class="slot mm-what"></div></div>
+    </div>
+    <div class="col">
+      <div class="secline">
+        <div class="label label-blue">Next week so far</div>
+        <div class="hint">meetings & appointments, no surprises</div>
+      </div>
+      <div class="mmrow"><div class="slot mm-time"></div><div class="slot mm-what"></div></div>
+      <div class="mmrow"><div class="slot mm-time"></div><div class="slot mm-what"></div></div>
+    </div>
+  </div>
+
+  <div class="footer">Done is done. See you next week.</div>
+
+</div>
+</body>
+</html>
